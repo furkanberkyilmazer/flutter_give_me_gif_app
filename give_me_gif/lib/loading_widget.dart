@@ -14,7 +14,7 @@ class LoadingWidget extends StatelessWidget {
         children: [
           CircularProgressIndicator(),
           SizedBox(height: 20,),
-          Text("Please wait, retrieving weather data...")
+          Text("Please wait, retrieving data...")
         ],
       )),
     );
